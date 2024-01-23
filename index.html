@@ -21,7 +21,8 @@
                 extend: {
                     colors: {
                         'hockey-primary': '#FF4240',
-                        'para-primary': 'rgba(255, 255, 255, 0.60)',
+                        'batch-primary': 'rgba(255, 255, 255, 0.60)',
+                        'para-primary': 'rgba(19, 19, 24, 0.60)',
 
                     }
                 }
@@ -44,7 +45,7 @@
 <body class="font-manrope">
     <header>
         <!-- navigation section -->
-        <nav class="md:container md:mx-auto lg:my-12 lg:px-24 px-6 ">
+        <nav class="container mx-auto my-2 lg:my-12 lg:px-24 px-6 ">
             <div class="navbar bg-base-100">
                 <div class="navbar-start ">
                     <div class="dropdown">
@@ -83,7 +84,7 @@
             </div>
         </nav>
         <!-- carousel/banner section -->
-        <section class="container mx-auto lg:my-12 lg:px-24 px-6">
+        <section class="container mx-auto mt-2 lg:my-12 lg:px-24 px-6">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item h-48 lg:h-[70vh] relative w-full">
                     <img src="./Images/1.png" class="w-full rounded-2xl" />
@@ -98,7 +99,7 @@
                     <!-- banner batch -->
                     <div class="bg-[#131318] absolute px-8 py-6 rounded-2xl right-8 bottom-8 hidden lg:flex flex-col">
                         <h3 class="text-white text-2xl">Meet all the heroes from the field</h3>
-                        <p class="text-para-primary mt-4">Explore exceptional individuals in diverse fields,<br>
+                        <p class="text-batch-primary mt-4">Explore exceptional individuals in diverse fields,<br>
                             showcasing their impactful contributions.</p>
                     </div>
                 </div>
@@ -115,7 +116,8 @@
                     <!-- banner batch -->
                     <div class="bg-[#131318] absolute px-8 py-6 rounded-2xl right-8 bottom-8 hidden lg:flex flex-col">
                         <h3 class="text-white text-2xl">Meet the Masters of Impactful Endeavors </h3>
-                        <p class="text-para-primary mt-4">Encounter the masters behind impactful endeavors,<br>shaping the landscape of their expertise.</p>
+                        <p class="text-batch-primary mt-4">Encounter the masters behind impactful endeavors,<br>shaping
+                            the landscape of their expertise.</p>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item h-48 lg:h-[70vh] relative w-full">
@@ -129,10 +131,10 @@
                         <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
                     </div>
                     <!-- banner batch -->
-                    <div class="bg-[#131318] absolute px-8 py-6 rounded-2xl right-8 bottom-8 hidden lg:flex flex-col">
+                    <div class="bg-[#131318] absolute px-8 py-6 rounded-2xl right-8 bottom-8 hidden  lg:flex flex-col">
                         <h3 class="text-white text-2xl">Championing Change Makers</h3>
-                        <p class="text-para-primary mt-4">Spotlighting change-makers making a difference in fields,<br>
-                        shaping a better future.</p>
+                        <p class="text-batch-primary mt-4">Spotlighting change-makers making a difference in fields,<br>
+                            shaping a better future.</p>
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item h-48 lg:h-[70vh] relative w-full">
@@ -148,19 +150,56 @@
                     <!-- banner batch -->
                     <div class="bg-[#131318] absolute px-8 py-6 rounded-2xl right-8 bottom-8 hidden lg:flex flex-col">
                         <h3 class="text-white text-2xl">Pioneering Excellence in Every Arena </h3>
-                        <p class="text-para-primary mt-4">Witness excellence as we delve into the achievements<br> of pioneers across varied domains.</p>
+                        <p class="text-batch-primary mt-4">Witness excellence as we delve into the achievements<br> of
+                            pioneers across varied domains.</p>
                     </div>
                 </div>
-               
+
             </div>
-            <div class="bg-[#131318] h-36 px-6 py-6 rounded-2xl lg:hidden ">
+            <div class="bg-[#131318] h-44 px-4 py-6  rounded-2xl mt-4 lg:hidden ">
                 <h3 class="text-white text-l font-semibold">Meet all the heroes from the field</h3>
-                <p class="text-para-primary my-2">Explore exceptional individuals in diverse fields, showcasing
+                <p class="text-batch-primary my-2">Explore exceptional individuals in diverse fields, showcasing
                     their impactful contributions.</p>
             </div>
         </section>
     </header>
-    <main></main>
+    <main>
+        <!-- Professional hockeys club section -->
+        <section class="my-4 lg:my-28">
+            <div class="container mx-auto  lg:px-24 px-6">
+                <div>
+                    <h2 class="text-black text-4xl font-extrabold text-center">Professional Hockeys Club</h2>
+                    <p class="text-para-primary text-base leading-6 text-center mt-6">Distinguished hockey club,
+                        fostering excellence and sportsmanship,<br> dedicated to advancing the game and creating
+                        enduring moments of triumph.</p>
+                </div>
+                <!-- percentage card -->
+                <div class="lg:flex lg:justify-between mt-12 lg:mt-20">
+                    <div class=" w-52 mx-auto lg:mx-0  flex flex-col items-center justify-center ">
+                        <div class=" font-extrabold text-2xl radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class=" text-black">87%</span></div>
+                        <h4 class="text-xl font-semibold text-center py-5">Player Facility</h4>
+                        <p class="text-para-primary text-center w-full">State-of-the-art player facility:peak performance, and well-being.</p>
+                    </div>
+                    <div class=" w-52 mx-auto lg:mx-0 mt-6 lg:mt-0 flex flex-col items-center justify-center">
+                        <div class=" font-extrabold text-2xl radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span class=" text-black">95%</span></div>
+                        <h4 class="text-xl font-semibold text-center py-5">Experienced Coach</h4>
+                        <p class="text-para-primary text-center w-full">Guiding success with seasoned expertise and mentorship.</p>
+                    </div>
+                   
+                    <div class=" w-52 mx-auto lg:mx-0 mt-6 lg:mt-0 flex flex-col items-center justify-center">
+                        <div class=" font-extrabold text-2xl radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><span class=" text-black">90%</span></div>
+                        <h4 class="text-xl font-semibold text-center py-5">Senior Player</h4>
+                        <p class="text-para-primary text-center">Experienced senior player, guiding with wisdom and skill.</p>
+                    </div>
+                    <div class=" w-52 mx-auto lg:mx-0 mt-6 lg:mt-0 flex flex-col items-center justify-center ">
+                        <div class=" font-extrabold text-2xl radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class=" text-black">80%</span></div>
+                        <h4 class="text-xl font-semibold text-center py-5">Training Ground</h4>
+                        <p class="text-para-primary text-center">Elite arena for transformative skill development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 
