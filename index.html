@@ -23,6 +23,8 @@
                         'hockey-primary': '#FF4240',
                         'batch-primary': 'rgba(255, 255, 255, 0.60)',
                         'para-primary': 'rgba(19, 19, 24, 0.60)',
+                        'border-primary': 'rgba(19, 19, 24, 0.10)',
+                        
 
                     }
                 }
@@ -86,7 +88,7 @@
         <!-- carousel/banner section -->
         <section class="container mx-auto mt-2 lg:my-12 lg:px-24 px-6">
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item h-48 lg:h-[70vh] relative w-full">
+                <div id="slide1" class="carousel-item h-60 lg:h-[70vh] relative w-full">
                     <img src="./Images/1.png" class="w-full rounded-2xl" />
                     <div class="absolute flex justify-center items-center gap-4  left-0 right-0  bottom-4 lg:hidden">
                         <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-none">❮</a>
@@ -230,12 +232,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero h-80 rounded-xl " style="background-image: url(./Images/3.png);">
+                    <div class="hero lg:h-80 rounded-xl " style="background-image: url(./Images/3.png);">
                         <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
                         <div class="hero-content text-left text-neutral-content">
                             <div class="max-w-md">
-                                <h1 class="mb-5 text-3xl font-extrabold">Teenager Program</h1>
-                                <p class="mb-5 font-medium text-base">Empower teens through our transformative program.
+                                <h1 class="mb-5 text-3xl  font-extrabold">Teenager Program</h1>
+                                <p class="mb-5 font-medium  text-base">Empower teens through our transformative program.
                                     Start a journey of self-discovery, growth, and lasting connections.</p>
                                 <button
                                     class="btn border-none px-5 py-2 bg-hockey-primary text-white text-xl font-bold">Register
@@ -245,14 +247,14 @@
                     </div>
                 </div>
                 <div>
-                    <div class="hero mt-6 h-80 lg:h-[450px] rounded-3xl relative"
+                    <div class="hero mt-6 h-96 lg:h-[450px] rounded-3xl relative"
                         style="background-image: url(./Images/4.png);">
                         <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
                         <div class="hero-content  text-neutral-content absolute text-left left-10 bottom-10">
                             <div class="max-w-md">
                                 <h1 class="mb-5 text-3xl font-extrabold text-white">Professional Program</h1>
-                                <p class="mb-5 font-medium text-base">Enroll in our Professional Program for skill
-                                    development, career growth, and transformative learning experiences tailored to your
+                                <p class="mb-5 font-medium text-base">Enroll in our Professional Program for
+                                    transformative learning experiences tailored to your
                                     success.</p>
                                 <button
                                     class="btn border-none px-5 py-2 bg-hockey-primary text-white text-xl font-bold">Register
@@ -263,6 +265,149 @@
 
                 </div>
             </div>
+        </section>
+        <!-- products section -->
+        <section class="my-4 lg:my-28">
+            <div class="container mx-auto  lg:px-24 px-6">
+                <div>
+                    <h2 class="text-black text-4xl font-extrabold text-center">Our New Products</h2>
+                    <p class="text-para-primary text-base leading-6 text-center mt-6">Discover groundbreaking additions
+                        to our product lineup—<br> designed to redefine convenience, style, and performance for every
+                        user.</p>
+                </div>
+                <div class=" grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12 lg:mt-20">
+                    
+                    <!-- first card -->
+                    <div class="card lg:card-side bg-white p-6 lg:p-6 border border-border-primary">
+                        <figure ><img  src="./Images/5.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="rating flex items-center">
+                                <div>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 mr-2 bg-orange-400 " checked /></div>
+                               <div >
+                                 <p class="text-para-primary text-sm ">5.0<i class="fa-regular fa-eye text-para-primary text-sm ml-4">  20</i> <i
+                                        class="fa-regular fa-heart text-para-primary text-sm ml-4">  200</i></p>
+
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">Exclusive Jacket </h2>
+                            <p class="text-para-primary text-base font-medium">Elevate your style with our sleek, high-performance sport jackets collection.</p>
+                            <div class="flex  justify-between items-center   ">
+                                <h3 class="font-extrabold text-lg text-hockey-primary mr-5">Price - $22.00</h3>
+                                <p class="text-para-primary text-base font-normal"><i class="fa-solid fa-cart-shopping mr-2"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second card -->
+                    <div class="card lg:card-side bg-white p-6 lg:p-6  border border-border-primary">
+                        <figure ><img src="./Images/6.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="rating flex items-center">
+                                <div>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 mr-2 bg-orange-400 " checked /></div>
+                               <div >
+                                 <p class="text-para-primary text-sm ">5.0<i class="fa-regular fa-eye text-para-primary text-sm ml-4">  20</i> <i
+                                        class="fa-regular fa-heart text-para-primary text-sm ml-4">  200</i></p>
+
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">Exclusive Football</h2>
+                            <p class="text-para-primary text-base font-medium">Revolutionize your game with our cutting-edge football products.</p>
+                            <div class="flex  justify-between items-center  ">
+                                <h3 class="font-extrabold text-lg text-hockey-primary mr-5">Price - $22.00</h3>
+                                <p class="text-para-primary text-base font-normal"><i class="fa-solid fa-cart-shopping mr-2"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="card lg:card-side bg-white  p-6 lg:p-6 border border-border-primary">
+                        <figure ><img src="./Images/7.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="rating flex items-center">
+                                <div>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 mr-2 bg-orange-400 " checked /></div>
+                               <div >
+                                 <p class="text-para-primary text-sm ">5.0<i class="fa-regular fa-eye text-para-primary text-sm ml-4">  20</i> <i
+                                        class="fa-regular fa-heart text-para-primary text-sm ml-4">  200</i></p>
+
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">Exclusive Hockey Cap </h2>
+                            <p class="text-para-primary text-base font-medium">Premium hockey caps: style meets performance on and off the field.</p>
+                            <div class="flex  justify-between items-center ">
+                                <h3 class="font-extrabold text-lg text-hockey-primary mr-5">Price - $22.00</h3>
+                                <p class="text-para-primary text-base font-normal"><i class="fa-solid fa-cart-shopping mr-2"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth card -->
+                    <div class="card lg:card-side bg-white p-6 lg:p-6 border border-border-primary">
+                        <figure ><img src="./Images/8.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="rating flex items-center">
+                                <div>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 mr-2 bg-orange-400 " checked /></div>
+                               <div >
+                                 <p class="text-para-primary text-sm ">5.0<i class="fa-regular fa-eye text-para-primary text-sm ml-4">  20</i> <i
+                                        class="fa-regular fa-heart text-para-primary text-sm ml-4">  200</i></p>
+
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">Exclusive Jersey </h2>
+                            <p class="text-para-primary text-base font-medium">Comfort, style, and durability in every stitch makes our products incomparable.</p>
+                            <div class="flex  justify-between items-center ">
+                                <h3 class="font-extrabold text-lg text-hockey-primary mr-5">Price - $22.00</h3>
+                                <p class="text-para-primary text-base font-normal"><i class="fa-solid fa-cart-shopping mr-2"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fifth card -->
+                    <div class="card lg:card-side bg-white p-6 lg:p-6 border border-border-primary">
+                        <figure ><img src="./Images/9.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="rating flex items-center">
+                                <div>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 mr-2 bg-orange-400 " checked /></div>
+                               <div >
+                                 <p class="text-para-primary text-sm ">5.0<i class="fa-regular fa-eye text-para-primary text-sm ml-4">  20</i> <i
+                                        class="fa-regular fa-heart text-para-primary text-sm ml-4">  200</i></p>
+
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">Exclusive Hockey Helmet</h2>
+                            <p class="text-para-primary text-base font-medium">Our hockey helmets prioritize safety and performance excellence.</p>
+                            <div class="flex  justify-between items-center ">
+                                <h3 class="font-extrabold text-lg text-hockey-primary mr-5">Price - $22.00</h3>
+                                <p class="text-para-primary text-base font-normal"><i class="fa-solid fa-cart-shopping mr-2"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sixth card -->
+                    <div class="card lg:card-side bg-white p-6 lg:p-6 border border-border-primary">
+                        <figure ><img src="./Images/10.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="rating flex items-center">
+                                <div>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 mr-2 bg-orange-400 " checked /></div>
+                               <div >
+                                 <p class="text-para-primary text-sm ">5.0<i class="fa-regular fa-eye text-para-primary text-sm ml-4">  20</i> <i
+                                        class="fa-regular fa-heart text-para-primary text-sm ml-4">  200</i></p>
+
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold">Soccer Balls </h2>
+                            <p class="text-para-primary text-base font-medium">Precision-engineered soccer balls for unparalleled performance on the field.</p>
+                            <div class="flex  justify-between items-center ">
+                                <h3 class="font-extrabold text-lg text-hockey-primary mr-5">Price - $22.00</h3>
+                                <p class="text-para-primary text-base font-normal"><i class="fa-solid fa-cart-shopping mr-2"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-4 lg:my-28">
+            <div class="container mx-auto  lg:px-24 px-6" ></div>
         </section>
     </main>
     <footer></footer>
